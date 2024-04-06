@@ -11,7 +11,8 @@
 //  У консоль будуть виведені результати її викликів.
 
 function calcAverageCalories(days) {
-if (days.length === 0) return 0;
+if (days.length === 0) 
+return 0;
 let total = 0;
 for (const day of days) {
     total += day.calories;
